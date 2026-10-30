@@ -5,7 +5,7 @@
 .q{
     width: 100%;
     height: 70px;
-    box-shadow: 1px 1px 3px lightgray;
+    box-shadow: 1px 1px 3px rgb(242, 238, 238);
 }
 .qq{
     display: flex;
@@ -33,3 +33,43 @@
     position: absolute;
     left: 620px;
    }
+   @media(max-width:500px){
+    .q{
+        display: none;
+    }
+   }
+   .w{
+    width: 100%;
+    height: 100px;
+    box-shadow: 1px 1px 3px rgb(228, 227, 227);
+    display: flex;
+   }
+   .w1{
+    padding-left: 120px;
+    display: flex;
+    color: black;
+    gap: 40px;
+    padding-top: 40px;
+   }
+   .w2{
+    padding-left: 200px;
+    padding-top: 30px;
+   }
+   .w4{
+    display: none;
+   }
+   @media(max-width:500px){
+    .w1{
+        display: none;
+    }
+    .w2{
+        padding-left: 0px;
+    }
+    .w4{
+        display: block;
+        height: 60px;
+        padding-left: 80px;
+        padding-top: 20px;
+    }
+   }
+   
