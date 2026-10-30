@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.q{
+    width: 100%;
+    height: 70px;
+    box-shadow: 1px 1px 3px lightgray;
+}
+.qq{
+    display: flex;
+    padding-left: 200px;
+    padding-top:25px ;
+}
+.q1{
+    
+    padding-left: 250px;
+}
+.q3{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+   position: absolute;
+   left: 1210px;
+   top: 20px;
+    }
+    .q2{
+        padding-left: 200px;
+    }
+   .qq img{
+    position: absolute;
+    left: 620px;
+   }
