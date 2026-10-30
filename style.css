@@ -9,7 +9,7 @@
 }
 .qq{
     display: flex;
-    padding-left: 200px;
+    padding-left: 150px;
     padding-top:25px ;
 }
 .q1{
@@ -31,7 +31,7 @@
     }
    .qq img{
     position: absolute;
-    left: 620px;
+    left: 580px;
    }
    @media(max-width:500px){
     .q{
@@ -41,7 +41,7 @@
    .w{
     width: 100%;
     height: 100px;
-    box-shadow: 1px 1px 3px rgb(228, 227, 227);
+    box-shadow: 1px 1px 3px rgb(234, 233, 233);
     display: flex;
    }
    .w1{
@@ -52,7 +52,7 @@
     padding-top: 40px;
    }
    .w2{
-    padding-left: 200px;
+    padding-left: 150px;
     padding-top: 30px;
    }
    .w4{
@@ -72,4 +72,95 @@
         padding-top: 20px;
     }
    }
-   
+   .e{
+    width: 100%;
+    height: 720px;
+    background-color:white;
+   }
+   .qq22,.qq11{
+    padding-left: 150px;
+  padding-top: 40px;
+
+   }
+   .qq11{
+    font-size: 40px;
+    padding-top: 40px;
+   }
+   .e1,.e2{
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    
+   }
+   .ee{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.e1{
+    background-color: #36B269;
+    color: white;
+}
+.e2{
+    background-color: #25C4D6;
+}
+.e1 button{
+    
+    border: none;
+    border-radius: 20px;
+    color: #36B269;
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+}
+.e3{
+    padding-left: 50px;
+    padding-top: 50px;
+    
+}
+.e3 p,.e3 h3{
+    padding-top: 20px;
+}
+.e5{
+    position: absolute;
+    left: 400px;
+    top: 500px;
+}
+.e6{
+    position: absolute;
+    left: 1010px;
+    top: 500px;
+}
+.e2{
+    background-color: #25C4D6;
+    color: white;
+}
+.e2 button{
+     border: none;
+    border-radius: 20px;
+    color: #25C4D6;
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+}
+@media(max-width:500px){
+    .e{
+        flex-direction: column;
+    }
+    .e1,.e2{
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    .ee{
+        flex-direction: column;
+    }
+    .e5,.e6{
+        position: static;
+        left: 0px;
+    }
+    .qq11,.qq22{
+       padding-left: 10px;
+    }
+}
